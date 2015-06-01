@@ -1,4 +1,4 @@
-function : void foo(int  a[5])
+function : void foo(int & a[5])
 {
   cout << "11: " << a[0] << endl;
 
@@ -16,7 +16,7 @@ function : void foo(int  a[5])
 }
 
 
-function : void foo2(float b[5])
+function : void foo2(float & b[5])
 { 
   cout << "11.11: " << b[0] << endl;
 
@@ -33,7 +33,7 @@ function : void foo2(float b[5])
   cout << "y 44.44: " << y << endl;
 }
 
-function : void foo3(bool c[2])
+function : void foo3(bool & c[2])
 {
   cout << "false: " << c[0] << endl;
 

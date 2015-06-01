@@ -1,4 +1,4 @@
-function : int fibonacci (int n, int memo[50]) {
+function : int fibonacci (int n, int & memo[50]) {
     if (n == 1 || n == 2) {
         return 1;
     }
